@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url("/images/places/ocean.jpg");
+  background-image: url("images/places/ocean.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -16,6 +16,7 @@
   position: relative;
   top: 200px;
 }
+
 #hero-content h1 {
   color: white;
   text-transform: uppercase;
@@ -31,6 +32,7 @@
   font-weight: 300;
   margin-bottom: 32px;
 }
+
 #hero-content a {
   text-decoration: none;
   background-color: rgb(255, 251, 0);
@@ -39,10 +41,16 @@
   font-size: 24px;
   font-weight: bold;
   border-radius: 8px;
-  box-shadow: 2px 4px 8px rgb(68, 68, 67);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
+
 #hero-content a:hover {
-  background-color: rgb(255, 239, 0);
+  background-color: rgb(255, 238, 0);
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
 }
 
 #highlights h2 {
@@ -55,20 +63,20 @@
 
 #destinations {
   display: flex;
+  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .destination {
   margin: 0 20px;
   text-transform: uppercase;
 }
+
 .destination p {
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   color: rgb(124, 123, 123);
   margin: 20px 0;
 }
@@ -80,6 +88,7 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
 .destination strong {
-  color: rgb(0, 160, 170);
+  color: rgb(0, 160, 117);
 }
